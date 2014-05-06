@@ -426,13 +426,32 @@ textarea {
 
 #navi {
 	
-	display:table;
-	width:100%;
+	display:inline-block;
+	width:30%;
+	float:left;
+	padding:10px;
+	border-right: 2px solid #FFFFFF;
 }
 
+#main {
+
+  padding:10px;
+  margin-left:10px;
+  display:inline-block;
+  width:60%;
+  float:right;
+}
+
+#footer {
+	
+	clear:both;
+	padding:10px;
+	text-align:center;
+}
 .button {
 	
-	display:table-cell;
+	display:block;
+	text-align:right;
 }
 
 .button a {
@@ -662,7 +681,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 900px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -740,8 +759,8 @@ td {
 hr {
   border: 0;
   outline: none;
-  height: 3px;
-  background: transparent url("../images/hr.gif") center center repeat-x;
+  height: 2px;
+  background: #FFFFFF;
   margin: 0 0 20px;
 }
 
@@ -838,7 +857,7 @@ dt {
 }
 
 section {
-  max-width: 650px;
+  max-width: 900px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
@@ -846,8 +865,6 @@ section {
 section #title {
   border: 0;
   outline: none;
-  margin: 0 0 50px 0;
-  padding: 0 0 5px 0;
 }
 section #title h1 {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
