@@ -427,7 +427,7 @@ textarea {
 #navi {
 	
 	display:inline-block;
-	width:30%;
+	width:15%;
 	float:left;
 	padding:10px;
 	border-right: 2px solid #FFFFFF;
@@ -436,10 +436,50 @@ textarea {
 #main {
 
   padding:10px;
-  margin-left:10px;
   display:inline-block;
-  width:60%;
+  width:75%;
   float:right;
+}
+
+#main-left {
+	float:left;
+	width:40%;
+}
+
+#top {
+	
+}
+
+#bottom {
+	background-color:#527F0E;
+}
+
+#main-right {
+	float:right;
+	width:60%;
+}
+
+.row {
+	width:100%;
+}
+
+.col {
+	width:23%;
+	height:100px;
+	display:inline-block;
+	padding:0px;
+	margin:0px;
+	vertical-align:top;
+}
+
+.blank {
+	width:23%;
+	height:100px;
+	background-color:#527F0E;
+	display:inline-block;
+	padding:0px;
+	margin:0px;
+	vertical-align:top;
 }
 
 #footer {
